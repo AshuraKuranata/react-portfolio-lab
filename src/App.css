@@ -1,6 +1,6 @@
 #root {
-  max-width: 1280px;
-  margin: 0 auto;
+  margin: 0 ;
+  min-width: 360px;
   padding: 2rem;
   text-align: center;
 }
@@ -11,6 +11,28 @@
   will-change: filter;
   transition: filter 300ms;
 }
+
+p {
+  color: gold;
+  font-weight: 500;
+}
+
+/* .container {
+  display: flex;
+  flex-direction: column;
+  width: auto
+}
+
+.card {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+}
+
+.skillCard {
+  flex-direction: column;
+} */
+
 .logo:hover {
   filter: drop-shadow(0 0 2em #646cffaa);
 }
